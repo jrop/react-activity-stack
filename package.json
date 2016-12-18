@@ -1,0 +1,27 @@
+{
+  "name": "react-activity-stack",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "buildw": "babel -w src/ -d lib/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "flow-bin": "^0.37.0",
+    "object-assign": "^4.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "react-addons-transition-group": "^15.4.1"
+  }
+}
