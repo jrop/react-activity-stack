@@ -1,5 +1,7 @@
 # react-activity-stack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/react-activity-stack.svg)](https://greenkeeper.io/)
+
 Emulates an Android activity stack (including animations), for React.
 
 ## Installation
