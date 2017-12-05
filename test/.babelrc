@@ -1,1 +1,13 @@
-{"presets": ["latest", "react"]}
+{
+	"presets": [
+		[
+			"env",
+			{
+				"targets": {
+					"uglifyjs": true
+				}
+			}
+		],
+		"react"
+	]
+}

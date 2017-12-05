@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
+import PropTypes from 'prop-types'
 
-import {Stack, StackFrame} from '../'
+import {Stack, StackFrame} from '../src'
 
 class App extends Component {
 	render() {
@@ -14,7 +15,7 @@ class App extends Component {
 	}
 }
 App.contextTypes = {
-	stack: React.PropTypes.object,
+	stack: PropTypes.object,
 }
 
 class Screen2 extends Component {
@@ -31,7 +32,7 @@ class Screen2 extends Component {
 	}
 }
 Screen2.contextTypes = {
-	stack: React.PropTypes.object,
+	stack: PropTypes.object,
 }
 
 window.addEventListener('load', () => {
